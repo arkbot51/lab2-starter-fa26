@@ -8,7 +8,11 @@ int main(int argc, char *argv[]) {
   char b1 = 0b01100010;
   char c1 = 0b01100011;
   
+<<<<<<< HEAD
   assert((a1 |  b1) == c1);
+=======
+  assert((a1 | b1) == c1);
+>>>>>>> 6d6ed15fd7c40c9c33439d3f60a07d084e860510
 
   char a2 = 0b00111000;
   char b2 = 0b01100001;
